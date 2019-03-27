@@ -16,7 +16,6 @@
     };
     Sidemenu.prototype.openLeftBar = function() {
       $("#wrapper").toggleClass("enlarged");
-      $("#wrapper").addClass("forced");
 
       if($("#wrapper").hasClass("enlarged") && $("body").hasClass("fixed-left")) {
         $("body").removeClass("fixed-left").addClass("fixed-left-void");
